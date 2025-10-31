@@ -1,0 +1,7 @@
+echo "# do_an_chuyen_nganh" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TienDev2k3/do_an_chuyen_nganh.git
+git push -u origin main
